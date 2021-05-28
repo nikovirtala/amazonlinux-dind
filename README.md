@@ -8,7 +8,7 @@ The image is available on following registries:
 
 - [Docker Hub](https://hub.docker.com/repository/docker/nikovirtala/amazonlinux-dind)
 - [Amazon ECR Public Gallery](https://gallery.ecr.aws/nikovirtala/amazonlinux-dind)
-- [GitHub Packages](https://github.com/users/nikovirtala/packages/container/package/nikovirtala/amazonlinux-dind)
+- [GitHub Packages](https://github.com/users/nikovirtala/packages/container/package/amazonlinux-dind)
 
 ## Usage
 
@@ -66,7 +66,7 @@ docker exec -it amazonlinux-dind /bin/bash
 docker stop amazonlinux-dind
 ```
 
-### Stop the container
+### Start the container
 
 ```sh
 docker start amazonlinux-dind
